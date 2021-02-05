@@ -52,6 +52,8 @@ i {
 #portrait {
   display: inline-block;
   margin: 10px;
+  width: 100px;
+  height: 100px;
 }
 
 #contactDetails {
@@ -74,6 +76,7 @@ i {
 }
 
 #summary {
+  font-size: 15px;
   margin: 10px;
   color: #7c797f;
   border-bottom: white;
