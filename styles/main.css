@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #141414;
+  color: white;
+  font-size: 12px;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 40px;
+  background-color: #141414;
+}
+
+i {
+  font-size: 20px;
+  margin: 5px;
+  color: #7c797f;
+}
+
+.mainContainer {
+  margin: 0px auto 20px auto;
+  background-color: #282828;
+  width: 70%;
+  height: 100%;
+}
+
+#headContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#portraitNameBox {
+  margin: 10px;
+  display: flex;
+  position: relative;
+  width: 60%;
+  flex-direction: row;
+}
+
+#name {
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+#portrait {
+  display: inline-block;
+  margin: 10px;
+}
+
+#contactDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-size: 90%;
+  width: 40%;
+  position: relative;
+}
+
+.contactRows {
+  text-align: right;
+}
+
+.contactValues {
+  color: #7c797f;
+  text-indent: 10px;
+}
+
+#summary {
+  margin: 10px;
+  color: #7c797f;
+  border-bottom: white;
+}
+
+a {
+  color: #44a5d2;
+  text-decoration: none;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+}
+
+#mainSection {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+#empEdSect {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.sectHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background-color: #373737;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.sectBullet {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+
+}
+
+.sectBulletChev {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: #44a5d2;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  /* font-size: .2rem; */
+  /* text-align: center; */
+  border-radius: 50%;
+}
+
+.sectMainLine{
+  display: flex;
+  width: 100%;
+  
+}
+
+.sectBulletTitle {
+/* width: 80%; */
+}
+
+.sectBulletDate {
+
+  width: 20%;
+  text-align: right;
+  color:#7c797f;
+}
+
+.sectChevronBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #44a5d2;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.sectHeadingText {
+  margin-left: 10px;
+}
+
+.fa-chevron-down {
+  color: white;
+}
+
+.fa-chevron-right {
+  color: white;
+}
+
+#skillsAside {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.skillSect {
+}
+
+#progSkills {
+}
+
+#graphSkills {
+}
+
+#langSkills {
+}
+
+.progSkillLine {
+}
+
+.skillBar {
+  background-color: #373737;
+  width: 100px;
+  height: 10px;
+}
