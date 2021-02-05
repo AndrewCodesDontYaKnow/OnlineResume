@@ -119,7 +119,6 @@ aside {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
-
 }
 
 .sectBulletChev {
@@ -135,21 +134,19 @@ aside {
   border-radius: 50%;
 }
 
-.sectMainLine{
+.sectMainLine {
   display: flex;
   width: 100%;
-  
 }
 
 .sectBulletTitle {
-/* width: 80%; */
+  /* width: 80%; */
 }
 
 .sectBulletDate {
-
   width: 20%;
   text-align: right;
-  color:#7c797f;
+  color: #7c797f;
 }
 
 .sectChevronBox {
@@ -191,7 +188,7 @@ aside {
 .graphLine {
   display: flex;
   align-items: center;
-  color:#7c797f;
+  color: #7c797f;
   margin-bottom: 3px;
 }
 
@@ -202,6 +199,40 @@ aside {
 }
 
 #langSkills {
+  margin-top: 40px;
+}
+
+.langLine {
+  display: flex;
+  align-items: center;
+  color: #7c797f;
+  margin-bottom:6px;
+}
+
+.langLabel {
+  margin-right: 20px;
+}
+
+.langCircle{
+  background-color:#141414;
+  border: 2px solid #373737;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.blueCircle{
+  background-color: #44A5D2;
+  border: none;
+}
+.greenCircle{
+  background-color:#69A333;
+  border: none;
+}
+.yellowCircle{
+  background-color:#FFBD25;
+  border: none;
 }
 
 .progSkillLine {
@@ -209,7 +240,7 @@ aside {
 }
 
 .progSkillLabel {
-  color:#7c797f;
+  color: #7c797f;
   font-weight: bolder;
 }
 
