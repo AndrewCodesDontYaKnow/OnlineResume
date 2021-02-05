@@ -184,10 +184,21 @@ aside {
 .skillSect {
 }
 
-#progSkills {
+#graphSkills {
+  margin-top: 40px;
 }
 
-#graphSkills {
+.graphLine {
+  display: flex;
+  align-items: center;
+  color:#7c797f;
+  margin-bottom: 3px;
+}
+
+.graphSquare {
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
 }
 
 #langSkills {
